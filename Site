@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunZone - Articles de Course à Pied</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">RunZone</div>
+            <ul>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Tout pour les passionnés de course à pied</h1>
+        <p>Découvrez nos chaussures, vêtements et accessoires spécialement conçus pour les coureurs.</p>
+        <a href="#produits" class="btn">Voir les produits</a>
+    </section>
+
+    <section id="produits" class="produits">
+        <h2>Nos Produits</h2>
+        <div class="produit-liste">
+            <div class="produit">
+                <img src="images/chaussures.jpg" alt="Chaussures de running">
+                <h3>Chaussures de Running</h3>
+                <p>Confort et performance pour tous les niveaux.</p>
+                <span class="prix">€120</span>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="images/vetements.jpg" alt="Vêtements de sport">
+                <h3>Vêtements de Sport</h3>
+                <p>Respirants et légers pour une liberté totale.</p>
+                <span class="prix">€60</span>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="images/accessoires.jpg" alt="Accessoires">
+                <h3>Accessoires</h3>
+                <p>Montres GPS, gourdes et plus encore.</p>
+                <span class="prix">€30</span>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="a-propos" class="a-propos">
+        <h2>À propos</h2>
+        <p>RunZone est une boutique dédiée aux passionnés de course à pied. Nous sélectionnons les meilleurs produits pour vous offrir une expérience unique.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 RunZone. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
